@@ -1,0 +1,1617 @@
+Index: src/bin/cat/depend.mk
+diff -c src/bin/cat/depend.mk:1.1.1.1 src/bin/cat/depend.mk:1.2
+*** src/bin/cat/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/cat/depend.mk	Fri Oct  6 16:01:50 2017
+***************
+*** 10,12 ****
+--- 10,13 ----
+   $(OSTREE)/include/string.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/bin/cp/depend.mk
+diff -c src/bin/cp/depend.mk:1.1.1.1 src/bin/cp/depend.mk:1.2
+*** src/bin/cp/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/cp/depend.mk	Fri Oct  6 16:01:57 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/bin/false/depend.mk
+diff -c src/bin/false/depend.mk:1.1.1.1 src/bin/false/depend.mk:1.2
+*** src/bin/false/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/false/depend.mk	Fri Oct  6 16:06:25 2017
+***************
+*** 8,10 ****
+--- 8,11 ----
+   $(OSTREE)/include/kern/unistd.h \
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/stdlib.h
++ 
+Index: src/bin/ln/depend.mk
+diff -c src/bin/ln/depend.mk:1.1.1.1 src/bin/ln/depend.mk:1.2
+*** src/bin/ln/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/ln/depend.mk	Fri Oct  6 16:06:29 2017
+***************
+*** 11,13 ****
+--- 11,14 ----
+   $(OSTREE)/include/string.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/bin/ls/depend.mk
+diff -c src/bin/ls/depend.mk:1.1.1.1 src/bin/ls/depend.mk:1.2
+*** src/bin/ls/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/ls/depend.mk	Fri Oct  6 16:06:31 2017
+***************
+*** 15,17 ****
+--- 15,18 ----
+   $(OSTREE)/include/errno.h \
+   $(OSTREE)/include/kern/errno.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/bin/mkdir/depend.mk
+diff -c src/bin/mkdir/depend.mk:1.1.1.1 src/bin/mkdir/depend.mk:1.2
+*** src/bin/mkdir/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/mkdir/depend.mk	Fri Oct  6 16:06:33 2017
+***************
+*** 11,13 ****
+--- 11,14 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/bin/mv/depend.mk
+diff -c src/bin/mv/depend.mk:1.1.1.1 src/bin/mv/depend.mk:1.2
+*** src/bin/mv/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/mv/depend.mk	Fri Oct  6 16:06:35 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/bin/pwd/depend.mk
+diff -c src/bin/pwd/depend.mk:1.1.1.1 src/bin/pwd/depend.mk:1.2
+*** src/bin/pwd/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/pwd/depend.mk	Fri Oct  6 16:06:37 2017
+***************
+*** 13,15 ****
+--- 13,16 ----
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/limits.h \
+   $(OSTREE)/include/kern/limits.h
++ 
+Index: src/bin/rm/depend.mk
+diff -c src/bin/rm/depend.mk:1.1.1.1 src/bin/rm/depend.mk:1.2
+*** src/bin/rm/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/rm/depend.mk	Fri Oct  6 16:06:39 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/bin/rmdir/depend.mk
+diff -c src/bin/rmdir/depend.mk:1.1.1.1 src/bin/rmdir/depend.mk:1.2
+*** src/bin/rmdir/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/rmdir/depend.mk	Fri Oct  6 16:06:40 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/bin/sh/depend.mk
+diff -c src/bin/sh/depend.mk:1.1.1.1 src/bin/sh/depend.mk:1.2
+*** src/bin/sh/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/sh/depend.mk	Fri Oct  6 16:06:43 2017
+***************
+*** 1,3 ****
+--- 1,4 ----
+  
+  sh.o: \
+   sh.c
++ 
+Index: src/bin/sh/dependh.mk
+diff -c src/bin/sh/dependh.mk:1.1.1.1 src/bin/sh/dependh.mk:1.2
+*** src/bin/sh/dependh.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/sh/dependh.mk	Fri Oct  6 16:06:43 2017
+***************
+*** 2,4 ****
+--- 2,5 ----
+  sh.ho: \
+   sh.c \
+   $(OSTREE)/hostinclude/hostcompat.h
++ 
+Index: src/bin/sync/depend.mk
+diff -c src/bin/sync/depend.mk:1.1.1.1 src/bin/sync/depend.mk:1.2
+*** src/bin/sync/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/sync/depend.mk	Fri Oct  6 16:06:45 2017
+***************
+*** 7,9 ****
+--- 7,10 ----
+   $(OSTREE)/include/kern/types.h \
+   $(OSTREE)/include/kern/unistd.h \
+   $(OSTREE)/include/kern/ioctl.h
++ 
+Index: src/bin/true/depend.mk
+diff -c src/bin/true/depend.mk:1.1.1.1 src/bin/true/depend.mk:1.2
+*** src/bin/true/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/bin/true/depend.mk	Fri Oct  6 16:06:47 2017
+***************
+*** 8,10 ****
+--- 8,11 ----
+   $(OSTREE)/include/kern/unistd.h \
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/stdlib.h
++ 
+Index: src/kern/asst1/catlock.c
+diff -c src/kern/asst1/catlock.c:1.1.1.1 src/kern/asst1/catlock.c:1.2
+*** src/kern/asst1/catlock.c:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/kern/asst1/catlock.c	Fri Oct  6 16:06:49 2017
+***************
+*** 44,49 ****
+--- 44,57 ----
+  
+  #define NMICE 2
+  
++ // Global Variables
++ struct lock *cm_lock, *bowl_lock[NFOODBOWLS], *eatCount_lock, *bowlsInUse_lock, 	*catsEating_lock, *mouseEating_lock, *actionNum_lock, *miceWaiting_lock;
++ int eatCount = 0;
++ int catsEating = 0;
++ int mouseEating = 0;
++ int actionNum = 0;
++ int bowlsInUse = 0;
++ int miceWaiting = 0;
+  
+  /*
+   * 
+***************
+*** 51,56 ****
+--- 59,106 ----
+   * 
+   */
+  
++ /////////////////////////////////////////////////////group 8//
++ 
++ /* Displays the action being performed, then outputs that the
++  * action is complete.
++  * Parameters:
++  * eater = the cat/mouse that is currently eating
++  * which = The number associated with the eating cat/mouse
++  * bowl = which of the bowls the eater is eating from
++  * actionNum = the iteration that is currently being executed */
++ static void eat_execute(const char *eater, int which, int bowl, 
++ int actionNum) {
++ 	kprintf("%s %d is eating from bowl %d (Thread %d)\n", eater,
++ 		which, bowl, actionNum);
++ 	// Remember to set seed in sys161.conf for random testing.
++ 	clocksleep(random() % 5);
++ 	kprintf("%s %d finishes eating from bowl %d (Thread %d)\n", eater,
++ 		which, bowl, actionNum);
++ }
++ /////////////////////////////////////////////////////group 8//
++ 
++ 
++ /////////////////////////////////////////////////////////////////group 8//
++ /* Cat or mouse attempts to eat from a bowl. */
++ static void eatFromBowl(const char *eater, int which, int actionNum) {
++ 	// Determine which bowl to use (if none in use, the first one,
++ 	// if one in use, the second one, and if both in use pick randomly).
++ 	int bowlUsed;
++ 	if (bowlsInUse == 0) bowlUsed = 0;
++ 	else if (bowlsInUse == 1) bowlUsed = 1;
++ 	else bowlUsed = (int)(random() % NFOODBOWLS);
++ 	
++ 	// Wait for the lock on the indicated bowl to allow access, lock the
++ 	// bowl, perform the eat operation, then release the bowl for other
++ 	// threads to access.
++ 	lock_acquire(bowl_lock[bowlUsed]);
++ 	lock_acquire(bowlsInUse_lock);
++ 	++bowlsInUse;
++ 	lock_release(bowlsInUse_lock);
++ 	eat_execute(eater, which, bowlUsed, actionNum);
++ 	lock_release(bowl_lock[bowlUsed]);
++ }		
++ ////////////////////////////////////////////////////////////////////group 8//
+  
+  /*
+   * catlock()
+***************
+*** 78,84 ****
+           */
+  
+          (void) unusedpointer;
+!         (void) catnumber;
+  }
+  	
+  
+--- 128,172 ----
+           */
+  
+          (void) unusedpointer;
+!         // (void) catnumber;
+! 	////////////////////////////////////////////////////group 8//
+! 	int i = 0;
+! 	while (i != 1) {
+! 		// If a cat is trying to eat and there aren't cats at both
+! 		// bowls, then send the incoming cat to an empty bowl.
+! 		// This is checked by acquiring the cat and mouse lock
+! 		// which contains a conditional variable showing the number
+! 		// of currently eating cats.
+! 		lock_acquire(cm_lock);
+! 		if (catsEating < 2 && miceWaiting < 2) {
+! 			lock_acquire(catsEating_lock);
+! 			catsEating++;
+! 			lock_release(catsEating_lock);
+! 			lock_acquire(actionNum_lock);
+! 			actionNum++;
+! 			lock_release(actionNum_lock);
+! 			int temp = actionNum;
+! 			lock_release(cm_lock);
+! 			eatFromBowl("cat", catnumber, temp);
+! 			lock_acquire(catsEating_lock);
+! 			catsEating--;
+! 			lock_release(catsEating_lock);
+! 			i++;
+! 		}
+! 		// If a cat is trying to eat and there are cats at both
+! 		// bowls, eating at this point is impossible so release
+! 		// the lock.
+! 		else {
+! 			lock_release(cm_lock);
+! 		}
+! 		thread_yield();
+! 	}
+! 	// Cat has eaten, increment the number of fed animals by 1.
+! 	lock_acquire(eatCount_lock);
+! 	eatCount++;
+! 	lock_release(eatCount_lock);
+! 	////////////////////////////////////////////////////group 8//
+! 
+  }
+  	
+  
+***************
+*** 108,114 ****
+           */
+          
+          (void) unusedpointer;
+!         (void) mousenumber;
+  }
+  
+  
+--- 196,265 ----
+           */
+          
+          (void) unusedpointer;
+! 	// (void) mousenumber;
+! 	
+! 	///////////////////////////////////////////////group 8//
+! 	lock_acquire(miceWaiting_lock);
+! 	miceWaiting++;
+! 	lock_release(miceWaiting_lock);
+! 	
+! 
+! 	int i = 0;
+! 	while (i != 1) {
+! 		lock_acquire(cm_lock);
+! 		// If there are no cats eating, allow the mice to access the
+! 		// bowls.
+! 		if (catsEating == 0 || catsEating == 3) {
+! 			// lock out cats by setting number of cats eating
+! 			// to an above possible number until mice are done.
+! 			lock_acquire(catsEating_lock);
+! 			catsEating = 3;
+! 			lock_release(catsEating_lock);
+! 			lock_acquire(mouseEating_lock);
+! 			mouseEating++;
+! 			lock_release(mouseEating_lock);
+! 			lock_acquire(actionNum_lock);
+! 			actionNum++;
+! 			lock_release(actionNum_lock);
+! 			int temp = actionNum;
+! 			lock_release(cm_lock);
+! 			eatFromBowl("mouse", mousenumber, temp);
+! 			lock_acquire(mouseEating_lock);
+! 			mouseEating--;
+! 			lock_release(mouseEating_lock);
+! 			// If there is still a mouse eating, keep the cats
+! 			// locked out, otherwise, reset the catsEating count
+! 			// to allow cats to access the bowls.
+! 			if (mouseEating == 0) catsEating = 0;
+! 			i++;
+! 		}
+! 		else {
+! 			lock_release(cm_lock);
+! 		}
+! 		thread_yield();
+! 	}        
+! 	// Mouse has eaten, increment the number of fed animals by 1.
+! 	lock_acquire(eatCount_lock);
+! 	eatCount++;
+! 	lock_release(eatCount_lock);
+! 
+! 	if (miceWaiting == 1) {
+! 		lock_acquire(miceWaiting_lock);
+! 		miceWaiting++;
+! 		lock_release(miceWaiting_lock);
+! 	}	
+! 	else if (miceWaiting == 2) {
+! 		lock_acquire(miceWaiting_lock);
+! 		miceWaiting++;
+! 		lock_release(miceWaiting_lock);
+! 	}
+! 	else if (miceWaiting == 3) {
+! 		lock_acquire(miceWaiting_lock);
+! 		miceWaiting = 0;
+! 		lock_release(miceWaiting_lock);
+! 	}
+! 	///////////////////////////////////////////////group 8//	
+! 
+  }
+  
+  
+***************
+*** 139,144 ****
+--- 290,323 ----
+  
+          (void) nargs;
+          (void) args;
++ 
++ 	////////////////////////////////////////////group 8//
++ 	// Initialize locks
++ 	eatCount_lock = lock_create("eatCount_lock");
++ 	assert(eatCount_lock != NULL);
++ 	cm_lock = lock_create("cm_lock");
++ 	assert((cm_lock) != NULL);
++ 	bowl_lock[0] = lock_create("bowl_lock");
++ 	assert(bowl_lock[0] != NULL);
++ 	bowl_lock[1] = lock_create("bowl_lock");
++ 	assert(bowl_lock[1] != NULL);
++ 	bowlsInUse_lock = lock_create("bowlsInUse_lock");
++ 	assert((bowlsInUse_lock) != NULL);
++ 	catsEating_lock = lock_create("catsEating_lock");
++ 	assert((catsEating_lock) != NULL);
++ 	mouseEating_lock = lock_create("mouseEating_lock");
++ 	assert((mouseEating_lock) != NULL);
++ 	actionNum_lock = lock_create("actionNum_lock");
++ 	assert((actionNum_lock) != NULL);
++ 	miceWaiting_lock = lock_create("miceWaiting_lock");
++ 	assert((miceWaiting_lock) != NULL);
++ 	catsEating = 0;
++ 	eatCount = 0;
++ 	mouseEating = 0;
++ 	actionNum = 0;
++ 	bowlsInUse = 0;
++ 	////////////////////////////////////////////group 8//
++ 	
+     
+          /*
+           * Start NCATS catlock() threads.
+***************
+*** 189,194 ****
+--- 368,390 ----
+                                );
+                  }
+          }
++ 	////////////////////////////////////////////group 8//
++ 	// Detect completion
++ 	while (eatCount < (NCATS + NMICE)) {
++ 		thread_yield();
++ 	}
++ 
++ 	// Destroy locks
++ 	lock_destroy(cm_lock);
++ 	lock_destroy(eatCount_lock);
++ 	lock_destroy(bowl_lock[0]);
++ 	lock_destroy(bowl_lock[1]);
++ 	lock_destroy(bowlsInUse_lock);
++ 	lock_destroy(catsEating_lock);
++ 	lock_destroy(mouseEating_lock);
++ 	lock_destroy(actionNum_lock);
++ 	lock_destroy(miceWaiting_lock);
++ 	////////////////////////////////////////////group 8//
+  
+          return 0;
+  }
+Index: src/kern/asst1/catsem.c
+diff -c src/kern/asst1/catsem.c:1.1.1.1 src/kern/asst1/catsem.c:1.2
+*** src/kern/asst1/catsem.c:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/kern/asst1/catsem.c	Fri Oct  6 16:06:49 2017
+***************
+*** 19,24 ****
+--- 19,26 ----
+  #include <test.h>
+  #include <thread.h>
+  
++ #include<synch.h> // Group 8
++ 
+  
+  /*
+   * 
+***************
+*** 51,56 ****
+--- 53,96 ----
+   * 
+   */
+  
++ /*
++  * Cases: 1-> Dish 1: No Cat/Mouse, Dish 2: No Cat/Mouse
++  *	2-> Dish 1: Cat i, Dish 2: No Cat
++  * 	3-> Dish 1: Cat i, Dish 2: Cat j
++  *	4-> Dish 1: Cat i, Dish 2: Cat j, Wait: Cat k
++  *	5-> Dish 1: Mouse i, Dish 2: No Mouse
++  *	6-> Dish 1: Mouse i, Dish 2: Mouse j
++  *
++  */
++ 
++ //Semaphores 
++ struct semaphore *dish_sem; // Controls dish resources
++ struct semaphore *cat_sem; // Controls max cats allowed
++ struct semaphore *mouse_sem; // Controls max mice allowed
++ struct semaphore *complete_sem; // Checks for program completion
++ struct semaphore *miceIn_sem; // Alerts mice to favorable eating conditions
++ struct semaphore *actionNum_sem; // Protects the actionNum variable
++ struct semaphore *eatCount_sem; // Protects the eatCount variable
++ struct semaphore *kitchen_sem;	// Protects the kitchen
++ struct semaphore *bowls_sem; // Protects the bowlOneUse and bowlTwoUse variables
++ struct semaphore *bothFree_sem;
++ 
++ volatile int actionNumS = 0; // Tracks the iteration number of the current action
++ volatile int eatCountS = 0; // Tracks the number of animals who have finished eating
++ volatile int bowlOneUse = 0; // Tracks if the first bowl is in use (for proper output)
++ volatile int bowlTwoUse = 0; // Tracks if the second bowl is in use (for proper output)
++ 
++ /* 
++  * Outputs the "start eating" action, waits a bit, then outputs the "finished eating" action.
++  */
++ 
++ static void sem_eat(const char *who, int num, int bowl, int iteration) {
++ 	kprintf("%s %d starts eating from bowl %d (Thread %d)\n", who, num, bowl, iteration);
++ 	clocksleep(random() % 2);
++ 	kprintf("%s %d ends eating from bowl %d (Thread %d)\n", who, num, bowl, iteration);
++ 	// Used during debug
++ 	//kprintf("cat_sem: %d\nmouse_sem: %d\n", cat_sem -> count, mouse_sem -> count);
++ }
+  
+  /*
+   * catsem()
+***************
+*** 78,83 ****
+--- 118,187 ----
+  
+          (void) unusedpointer;
+          (void) catnumber;
++ 	
++ 	//////////////////////////////////////group 8//
++ 	// Wait for there to be resources in cat_sem, this prevents more than two cats from trying for the dishes at a time.
++ 	P(cat_sem);
++ 
++ 	// Wait for a dish to be available, then indicate the available bowl for display on eat action.
++ 	P(kitchen_sem);
++ 
++ 	P(dish_sem);
++ 	P(bowls_sem);
++ 	int usedBowl = 0;
++ 	if (bowlOneUse == 0) {
++ 		bowlOneUse++;
++ 		usedBowl = 1;
++ 	}
++ 	else if (bowlTwoUse == 0) {
++ 		bowlTwoUse++;
++ 		usedBowl = 2;
++ 	}
++ 	else {
++ 		panic("there were no bowls");
++ 	}			
++ 	V(bowls_sem);	
++ 	
++ 	// Increment the counter for the number of actions.
++ 	P(actionNum_sem);
++ 	actionNumS++;
++ 	int iter = actionNumS;
++ 	V(actionNum_sem);
++ 	V(kitchen_sem);
++ 
++ 	// Perform the dish operations.
++ 	sem_eat("cat", catnumber, usedBowl, iter);
++ 
++ 	// Set the bowl that was used back to unused status.
++ 	int check = 0;
++ 	P(kitchen_sem);
++ 	P(bowls_sem);
++ 	if (usedBowl == 1) bowlOneUse = 0;
++ 	else bowlTwoUse = 0;
++ 	if (bowlOneUse == 0 && bowlTwoUse == 0 && bothFree_sem -> count == 0) {
++ 		V(bothFree_sem);
++ 	}
++ 	V(dish_sem);
++ 	// If both bowls are available and the mice have yet to start trying to eat, signal miceIn_sem to tell them to start (then set the cat_sem count to 0 to prevent more cats from going for the bowls until the mice are done and reset the count) otherwise, signal cat_sem to let another cat in.
++ 	if (mouse_sem -> count == 2) {
++ 		if (bothFree_sem -> count == 1 && dish_sem -> count == 2) {
++ 			V(miceIn_sem);
++ 			cat_sem -> count = 0;
++ 		}
++ 	}
++ 	else if (miceIn_sem -> count == 0) V(cat_sem);
++ 	V(bowls_sem);
++ 
++ 	// Increment the count of animals that have eaten
++ 	P(eatCount_sem);
++ 	eatCountS++;
++ 	V(eatCount_sem);
++ 	V(kitchen_sem);
++ 
++ 	// Check for completion
++ 	V(complete_sem);
++ 	//////////////////////////////////////group 8//
++ 	
+  }
+          
+  
+***************
+*** 108,113 ****
+--- 212,278 ----
+  
+          (void) unusedpointer;
+          (void) mousenumber;
++ 
++ 	/////////////////////////////////////////group 8//	
++ 	// Wait for the miceIn_sem to be signaled (which it should be when a catsem runs to completion and detects that both the dishes are available, then wait for resources in the mouse_sem.	
++ 	V(mouse_sem);
++ 	P(miceIn_sem);
++ 	V(miceIn_sem);
++ 	
++ 	// Wait for a dish to be available, then indicate the available bowl for display on eat action.
++ 	P(dish_sem);
++ 	P(kitchen_sem);
++ 	
++ 	P(bowls_sem);
++ 	int usedBowl = 0;
++ 	if (bowlOneUse == 0) {
++ 		bowlOneUse++;
++ 		usedBowl = 1;
++ 	}
++ 	else if (bowlTwoUse == 0) {
++ 		bowlTwoUse++;
++ 		usedBowl = 2;
++ 	}
++ 	else {
++ 		panic("there were no bowls");
++ 	}
++ 	V(bowls_sem);
++ 
++ 	// Increment the counter for the number of actions.
++ 	P(actionNum_sem);
++ 	actionNumS++;
++ 	int iter = actionNumS;
++ 	V(actionNum_sem);
++ 	V(kitchen_sem);
++ 
++ 	// Perform the dish operations.
++ 	sem_eat("mouse", mousenumber, usedBowl, iter);
++ 	
++ 	// Set the bowl that was used back to unused status.
++ 	P(kitchen_sem);
++ 	P(bowls_sem);
++ 	if (usedBowl == 1) bowlOneUse = 0;
++ 	else bowlTwoUse = 0;
++ 	V(dish_sem);
++ 	V(bowls_sem);
++ 
++ 	// If both bowls are available and the mouse_sem count is 0 (indicating both mice have started or finished eating since the semaphore is initialized to 2 and is never signaled) then reset the cat_sem count to allow cats to enter the kitchen and signal the cat_sem.
++ 	P(mouse_sem);
++ 	if (bowlOneUse == 0 && bowlTwoUse == 0 && mouse_sem -> count == 0) {
++ 		cat_sem -> count = 1;
++ 		miceIn_sem -> count = 0;
++ 		V(cat_sem);
++ 	}
++ 
++ 	// Increment the count of animals that have eaten
++ 	P(eatCount_sem);
++ 	eatCountS++;
++ 	V(eatCount_sem);
++ 	V(kitchen_sem);
++ 
++ 	// Check for completion
++ 	V(complete_sem);
++ 	/////////////////////////////////////////group 8//
+  }
+  
+  
+***************
+*** 139,144 ****
+--- 304,396 ----
+          (void) nargs;
+          (void) args;
+     
++ 	// Initialize semaphores
++ 	dish_sem = NULL;
++ 	if (dish_sem == NULL) {
++ 		dish_sem = sem_create("dish_sem", 2);
++ 		if (dish_sem == NULL) {
++ 			panic("dish_sem: sem_create failed\n");
++ 		}
++ 	}
++ 
++ 	cat_sem = NULL;
++ 	if (cat_sem == NULL) {
++ 		cat_sem = sem_create("cat_sem", 2);
++ 		if (cat_sem == NULL) {
++ 			panic("cat_sem: sem_create failed\n");
++ 		}
++ 	}
++ 
++ 	mouse_sem = NULL;
++ 	if (mouse_sem == NULL) {
++ 		mouse_sem = sem_create("mouse_sem", 0);
++ 		if (mouse_sem == NULL) {
++ 			panic("mouse_sem: sem_create failed\n");
++ 		}
++ 	}
++ 
++ 	complete_sem = NULL;
++ 	if (complete_sem == NULL) {
++ 		complete_sem = sem_create("complete_sem", 0);
++ 		if (complete_sem == NULL) {
++ 			panic("complete_sem: sem_create failed\n");
++ 		}
++ 	}
++ 	
++ 	miceIn_sem = NULL;
++ 	if (miceIn_sem == NULL) {
++ 		miceIn_sem = sem_create("miceIn_sem", 0);
++ 		if (miceIn_sem == NULL) {
++ 			panic("miceIn_sem: sem_create failed\n");
++ 		}
++ 	}
++ 	
++ 	actionNum_sem = NULL;
++ 	if (actionNum_sem == NULL) {
++ 		actionNum_sem = sem_create("actionNum_sem", 1);
++ 		if (actionNum_sem == NULL) {
++ 			panic("actionNum_sem: sem_create failed\n");
++ 		}
++ 	}
++ 
++ 	eatCount_sem = NULL;
++ 	if (eatCount_sem == NULL) {
++ 		eatCount_sem = sem_create("eatCount_sem", 1);
++ 		if (eatCount_sem == NULL) {
++ 			panic("eatCount_sem: sem_create failed\n");
++ 		}
++ 	}	
++ 
++ 	kitchen_sem = NULL;
++ 	if (kitchen_sem == NULL) {
++ 		kitchen_sem = sem_create("kitchen_sem", 1);
++ 		if (kitchen_sem == NULL) {
++ 			panic("kitchen_sem: sem_create failed\n");
++ 		}
++ 	}	
++ 
++ 	bowls_sem = NULL;
++ 	if (bowls_sem == NULL) {
++ 		bowls_sem = sem_create("bowls_sem", 1);
++ 		if (bowls_sem == NULL) {
++ 			panic("bowls_sem: sem_create failed\n");
++ 		}
++ 	}	
++ 	
++ 	bothFree_sem = NULL;
++ 	if (bothFree_sem == NULL) {
++ 		bothFree_sem = sem_create("bothFree_sem", 0);
++ 		if (bothFree_sem == NULL) {
++ 			panic("bothFree_sem: sem_create failed\n");
++ 		}
++ 	}
++ 	
++ 	//  Initialize variables
++ 	bowlOneUse = 0;
++ 	bowlTwoUse = 0;
++ 	actionNumS = 0;
++ 	eatCountS = 0;
++ 
+          /*
+           * Start NCATS catsem() threads.
+           */
+***************
+*** 188,194 ****
+                                );
+                  }
+          }
+! 
+          return 0;
+  }
+  
+--- 440,463 ----
+                                );
+                  }
+          }
+! 	// Detect completion
+! 	while (eatCountS < (NCATS + NMICE)) {
+! 		thread_yield();
+! 		P(complete_sem);
+! 	}
+! 
+! 	// Destroy semaphores
+! 	sem_destroy(dish_sem);
+! 	sem_destroy(cat_sem);
+! 	sem_destroy(mouse_sem);
+! 	sem_destroy(complete_sem);
+! 	sem_destroy(miceIn_sem);
+! 	sem_destroy(actionNum_sem);
+! 	sem_destroy(eatCount_sem);
+! 	sem_destroy(kitchen_sem);
+! 	sem_destroy(bowls_sem);
+! 	sem_destroy(bothFree_sem);
+! 	
+          return 0;
+  }
+  
+Index: src/kern/include/synch.h
+diff -c src/kern/include/synch.h:1.1.1.1 src/kern/include/synch.h:1.2
+*** src/kern/include/synch.h:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/kern/include/synch.h	Fri Oct  6 16:06:51 2017
+***************
+*** 52,57 ****
+--- 52,61 ----
+  	char *name;
+  	// add what you need here
+  	// (don't forget to mark things volatile as needed)
++ 	// Current state of the lock (locked or unlocked)
++ 	volatile int lockState; // added by group 8
++ 	// The thread that is holding the lock.
++ 	struct thread *holder; // added by group 8
+  };
+  
+  struct lock *lock_create(const char *name);
+***************
+*** 59,64 ****
+--- 63,69 ----
+  void         lock_release(struct lock *);
+  int          lock_do_i_hold(struct lock *);
+  void         lock_destroy(struct lock *);
++ int	     test_and_set(struct lock *);
+  
+  
+  /*
+Index: src/kern/include/thread.h
+diff -c src/kern/include/thread.h:1.1.1.1 src/kern/include/thread.h:1.2
+*** src/kern/include/thread.h:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/kern/include/thread.h	Fri Oct  6 16:06:51 2017
+***************
+*** 90,95 ****
+--- 90,103 ----
+   */
+  void thread_wakeup(const void *addr);
+  
++ ///////////////////////////////////////////////////////////group 8//
++ /*
++  * Cause one thread sleeping on the specified address to wake up.
++  * Interrupts must be disabled.
++  */
++ void thread_wakeOne(const void *addr);
++ ////////////////////////////////////////////////////////////group 8//
++ 
+  /*
+   * Return nonzero if there are any threads sleeping on the specified
+   * address. Meant only for diagnostic purposes.
+Index: src/kern/thread/synch.c
+diff -c src/kern/thread/synch.c:1.1.1.1 src/kern/thread/synch.c:1.2
+*** src/kern/thread/synch.c:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/kern/thread/synch.c	Fri Oct  6 16:06:52 2017
+***************
+*** 96,101 ****
+--- 96,102 ----
+  //
+  // Lock.
+  
++ // Initializes the lock under the name passed by parameter.
+  struct lock *
+  lock_create(const char *name)
+  {
+***************
+*** 112,158 ****
+  		return NULL;
+  	}
+  	
+! 	// add stuff here as needed
+  	
+  	return lock;
+  }
+  
+  void
+  lock_destroy(struct lock *lock)
+  {
+  	assert(lock != NULL);
+  
+! 	// add stuff here as needed
+! 	
+  	kfree(lock->name);
+  	kfree(lock);
+  }
+  
+  void
+  lock_acquire(struct lock *lock)
+  {
+! 	// Write this
+  
+! 	(void)lock;  // suppress warning until code gets written
+  }
+  
+  void
+  lock_release(struct lock *lock)
+  {
+! 	// Write this
+  
+! 	(void)lock;  // suppress warning until code gets written
+  }
+  
+  int
+  lock_do_i_hold(struct lock *lock)
+  {
+! 	// Write this
+! 
+! 	(void)lock;  // suppress warning until code gets written
+! 
+! 	return 1;    // dummy until code gets written
+  }
+  
+  ////////////////////////////////////////////////////////////
+  //
+--- 113,218 ----
+  		return NULL;
+  	}
+  	
+! 	// add stuff here as needed////////////////////////////////group 8//
+! 	// Sets the initial lock state as unlocked.
+! 	lock -> lockState = 0;
+! 	lock -> holder = NULL;
+! 	///////////////////////////////////////////////////////////group 8//
+  	
+  	return lock;
+  }
+  
++ // Confirms the lock contains no sleeping threads, then destroys the lock
++ // (by using kfree to remove allocated memory).
+  void
+  lock_destroy(struct lock *lock)
+  {
+  	assert(lock != NULL);
+  
+! 	// add stuff here as needed///////////////////////////////group 8//
+! 	// Turn off interrupts and store old interrupt level in variable
+! 	// oldSpl.
+! 	int oldSpl;
+! 	oldSpl = splhigh();
+! 	// Confirm that the lock has no sleeping threads queued.
+! 	assert(thread_hassleepers(lock)==0);
+! 	// Reset to prior interrupt level.
+! 	splx(oldSpl);	
+! 	//////////////////////////////////////////////////////////group 8//
+! 
+  	kfree(lock->name);
+  	kfree(lock);
+  }
+  
++ // Get the lock. Only one thread can hold the lock at the same time.
+  void
+  lock_acquire(struct lock *lock)
+  {
+! 	// Write this///////////////////////////////////////////group 8///
+! 	// If the lock passed by the parameters exists, disable interrupts
+! 	// and store the old interrupt level.
+! 	int oldSpl;
+! 	//assert(lock != NULL);
+! 	oldSpl = splhigh();
+! 	// If the lock is locked, wait for it to be unlocked, otherwise
+! 	// proceed.
+! 	while (test_and_set(lock)) {
+! 		thread_sleep(lock);
+! 	}
+! 	lock -> lockState = 1;
+! 	lock -> holder = curthread;
+! 	// Reset to old interrupt level
+! 	splx(oldSpl);
+! 	/////////////////////////////////////////////////////////group 8//
+  
+! 	//(void)lock;  // suppress warning until code gets written
+  }
+  
++ // Free the lock, only the thread holding the lock can release it.
+  void
+  lock_release(struct lock *lock)
+  {
+! 	// Write this////////////////////////////////////////////group 8//
+! 	// Turn off interrupts and save the old interrupt level.
+! 	int oldSpl;
+! 	oldSpl = splhigh();
+! 	// Set the lock's status to unlocked, then wake it up.
+! 	lock -> lockState = 0;
+! 	lock -> holder = NULL;
+! 	thread_wakeup(lock);
+! 	// Reset the interrupt level.
+! 	splx(oldSpl);
+! 	///////////////////////////////////////////////////////////group 8//
+  
+! 	//(void)lock;  // suppress warning until code gets written
+  }
+  
++ // Return true if the current thread holds the lock, false otherwise.
+  int
+  lock_do_i_hold(struct lock *lock)
+  {
+! 	// Write this/////////////////////////////////////////////group 8//
+! 	// Simply return the current state of the lock.
+! 	return lock -> lockState;
+! 	//////////////////////////////////////////////////////////group 8//
+! 
+! 	//(void)lock;  // suppress warning until code gets written
+! 
+! 	//return 1;    // dummy until code gets written
+! }
+! 
+! // New Method test_and_set/////////////////////////////////////////group 8//
+! // Returns the original lock state of the parameter  and sets the lock state
+! // to locked.
+! int test_and_set (struct lock *lock) {
+! 	// stores the old value of the lock.
+! 	int origState = lock -> lockState;
+! 	// sets the new state to locked.
+! 	lock -> lockState = 1;
+! 	// return the old state.
+! 	return origState;
+  }
++ //////////////////////////////////////////////////////////////////group 8///
+  
+  ////////////////////////////////////////////////////////////
+  //
+***************
+*** 180,185 ****
+--- 240,246 ----
+  	return cv;
+  }
+  
++ // Destroy the indicated condition variable
+  void
+  cv_destroy(struct cv *cv)
+  {
+***************
+*** 191,216 ****
+  	kfree(cv);
+  }
+  
+  void
+  cv_wait(struct cv *cv, struct lock *lock)
+  {
+! 	// Write this
+! 	(void)cv;    // suppress warning until code gets written
+! 	(void)lock;  // suppress warning until code gets written
+  }
+  
+  void
+  cv_signal(struct cv *cv, struct lock *lock)
+  {
+! 	// Write this
+! 	(void)cv;    // suppress warning until code gets written
+! 	(void)lock;  // suppress warning until code gets written
+  }
+  
+  void
+  cv_broadcast(struct cv *cv, struct lock *lock)
+  {
+! 	// Write this
+! 	(void)cv;    // suppress warning until code gets written
+! 	(void)lock;  // suppress warning until code gets written
+  }
+--- 252,300 ----
+  	kfree(cv);
+  }
+  
++ // Release the supplied lock, go to sleep, and after waking up again,
++ // re-acquire the lock.
+  void
+  cv_wait(struct cv *cv, struct lock *lock)
+  {
+! 	// Write this//////////////////////////////////group 8//
+! 	int oldSpl;
+! 	lock_release(lock);
+! 	oldSpl = splhigh();
+! 	thread_sleep(cv);
+! 	splx(oldSpl);
+! 	lock_acquire(lock);
+! 	////////////////////////////////////////////////group 8//
+! 	//(void)cv;    // suppress warning until code gets written
+! 	//(void)lock;  // suppress warning until code gets written
+  }
+  
++ // Wake up one thread that's sleeping on this CV.
+  void
+  cv_signal(struct cv *cv, struct lock *lock)
+  {
+! 	// Write this//////////////////////////////////group 8//
+! 	int oldSpl;
+! 	oldSpl = splhigh();
+! 	thread_wakeOne(cv);
+! 	splx(oldSpl);
+! 	(void) lock;
+! 	///////////////////////////////////////////////group 8//
+! 	//(void)cv;    // suppress warning until code gets written
+! 	//(void)lock;  // suppress warning until code gets written
+  }
+  
++ // Wake up all threads sleeping on this CV.
+  void
+  cv_broadcast(struct cv *cv, struct lock *lock)
+  {
+! 	// Write this//////////////////////////////////group 8//
+! 	int oldSpl;
+! 	oldSpl = splhigh();
+! 	thread_wakeup(cv);
+! 	splx(oldSpl);
+! 	(void) lock;
+! 	//////////////////////////////////////////////group 8//
+! 	//(void)cv;    // suppress warning until code gets written
+! 	//(void)lock;  // suppress warning until code gets written
+  }
+Index: src/kern/thread/thread.c
+diff -c src/kern/thread/thread.c:1.1.1.1 src/kern/thread/thread.c:1.2
+*** src/kern/thread/thread.c:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/kern/thread/thread.c	Fri Oct  6 16:06:52 2017
+***************
+*** 483,489 ****
+  
+  /*
+   * Yield the cpu to another process, and go to sleep, on "sleep
+!  * address" ADDR. Subsequent calls to thread_wakeup with the same
+   * value of ADDR will make the thread runnable again. The address is
+   * not interpreted. Typically it's the address of a synchronization
+   * primitive or data structure.
+--- 483,489 ----
+  
+  /*
+   * Yield the cpu to another process, and go to sleep, on "sleep
+!   address" ADDR. Subsequent calls to thread_wakeup with the same
+   * value of ADDR will make the thread runnable again. The address is
+   * not interpreted. Typically it's the address of a synchronization
+   * primitive or data structure.
+***************
+*** 537,542 ****
+--- 537,569 ----
+  	}
+  }
+  
++ // Wake up one thread who are sleeping on "sleep address"
++ void
++ thread_wakeOne(const void *addr)
++ {
++ 
++ 	int i, result;
++ 
++ 	// meant to be called when interrupts off
++ 	assert(curspl>0);
++ 
++ 	// This is inefficient. Feel free to improve it
++ 	
++ 	i = 0;
++ 	struct thread *t = array_getguy(sleepers, i);
++ 	if (t -> t_sleepaddr == addr) {
++ 		
++ 		// Remove from list
++ 		array_remove(sleepers, i);
++ 
++ 		// must look at the same sleepers[i] again
++ 		i--;
++ 
++ 		result = make_runnable(t);
++ 		assert(result == 0);
++ 	}
++ }
++ 
+  /*
+   * Return nonzero if there are any threads who are sleeping on "sleep address"
+   * ADDR. This is meant to be used only for diagnostic purposes.
+Index: src/lib/hostcompat/dependh.mk
+diff -c src/lib/hostcompat/dependh.mk:1.1.1.1 src/lib/hostcompat/dependh.mk:1.2
+*** src/lib/hostcompat/dependh.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/lib/hostcompat/dependh.mk	Fri Oct  6 16:06:54 2017
+***************
+*** 8,10 ****
+--- 8,11 ----
+  hostcompat.ho: \
+   hostcompat.c \
+   hostcompat.h
++ 
+Index: src/lib/libc/depend.mk
+diff -c src/lib/libc/depend.mk:1.1.1.1 src/lib/libc/depend.mk:1.2
+*** src/lib/libc/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/lib/libc/depend.mk	Fri Oct  6 16:06:55 2017
+***************
+*** 244,246 ****
+--- 244,247 ----
+   syscalls.S \
+   $(OSTREE)/include/kern/callno.h \
+   $(OSTREE)/include/machine/asmdefs.h
++ 
+Index: src/sbin/dumpsfs/depend.mk
+diff -c src/sbin/dumpsfs/depend.mk:1.1.1.1 src/sbin/dumpsfs/depend.mk:1.2
+*** src/sbin/dumpsfs/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/sbin/dumpsfs/depend.mk	Fri Oct  6 16:06:57 2017
+***************
+*** 35,37 ****
+--- 35,38 ----
+   disk.h
+  support.o: \
+   support.c
++ 
+Index: src/sbin/dumpsfs/dependh.mk
+diff -c src/sbin/dumpsfs/dependh.mk:1.1.1.1 src/sbin/dumpsfs/dependh.mk:1.2
+*** src/sbin/dumpsfs/dependh.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/sbin/dumpsfs/dependh.mk	Fri Oct  6 16:06:57 2017
+***************
+*** 11,13 ****
+--- 11,14 ----
+   disk.h
+  support.ho: \
+   support.c
++ 
+Index: src/sbin/halt/depend.mk
+diff -c src/sbin/halt/depend.mk:1.1.1.1 src/sbin/halt/depend.mk:1.2
+*** src/sbin/halt/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/sbin/halt/depend.mk	Fri Oct  6 16:06:59 2017
+***************
+*** 7,9 ****
+--- 7,10 ----
+   $(OSTREE)/include/kern/types.h \
+   $(OSTREE)/include/kern/unistd.h \
+   $(OSTREE)/include/kern/ioctl.h
++ 
+Index: src/sbin/mksfs/depend.mk
+diff -c src/sbin/mksfs/depend.mk:1.1.1.1 src/sbin/mksfs/depend.mk:1.2
+*** src/sbin/mksfs/depend.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/sbin/mksfs/depend.mk	Fri Oct  6 16:07:02 2017
+***************
+*** 34,36 ****
+--- 34,37 ----
+   disk.h
+  support.o: \
+   support.c
++ 
+Index: src/sbin/mksfs/dependh.mk
+diff -c src/sbin/mksfs/dependh.mk:1.1.1.1 src/sbin/mksfs/dependh.mk:1.2
+*** src/sbin/mksfs/dependh.mk:1.1.1.1	Wed Sep 27 13:25:12 2017
+--- src/sbin/mksfs/dependh.mk	Fri Oct  6 16:07:02 2017
+***************
+*** 11,13 ****
+--- 11,14 ----
+   disk.h
+  support.ho: \
+   support.c
++ 
+Index: src/sbin/poweroff/depend.mk
+diff -c src/sbin/poweroff/depend.mk:1.1.1.1 src/sbin/poweroff/depend.mk:1.2
+*** src/sbin/poweroff/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/sbin/poweroff/depend.mk	Fri Oct  6 16:07:03 2017
+***************
+*** 7,9 ****
+--- 7,10 ----
+   $(OSTREE)/include/kern/types.h \
+   $(OSTREE)/include/kern/unistd.h \
+   $(OSTREE)/include/kern/ioctl.h
++ 
+Index: src/sbin/reboot/depend.mk
+diff -c src/sbin/reboot/depend.mk:1.1.1.1 src/sbin/reboot/depend.mk:1.2
+*** src/sbin/reboot/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/sbin/reboot/depend.mk	Fri Oct  6 16:07:05 2017
+***************
+*** 7,9 ****
+--- 7,10 ----
+   $(OSTREE)/include/kern/types.h \
+   $(OSTREE)/include/kern/unistd.h \
+   $(OSTREE)/include/kern/ioctl.h
++ 
+Index: src/testbin/add/depend.mk
+diff -c src/testbin/add/depend.mk:1.1.1.1 src/testbin/add/depend.mk:1.2
+*** src/testbin/add/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/add/depend.mk	Fri Oct  6 16:07:06 2017
+***************
+*** 8,10 ****
+--- 8,11 ----
+   $(OSTREE)/include/stdarg.h \
+   $(OSTREE)/include/stdlib.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/testbin/argtest/depend.mk
+diff -c src/testbin/argtest/depend.mk:1.1.1.1 src/testbin/argtest/depend.mk:1.2
+*** src/testbin/argtest/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/argtest/depend.mk	Fri Oct  6 16:07:08 2017
+***************
+*** 6,8 ****
+--- 6,9 ----
+   $(OSTREE)/include/machine/types.h \
+   $(OSTREE)/include/kern/types.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/testbin/badcall/depend.mk
+diff -c src/testbin/badcall/depend.mk:1.1.1.1 src/testbin/badcall/depend.mk:1.2
+*** src/testbin/badcall/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/badcall/depend.mk	Fri Oct  6 16:07:10 2017
+***************
+*** 431,433 ****
+--- 431,434 ----
+   $(OSTREE)/include/err.h \
+   config.h \
+   test.h
++ 
+Index: src/testbin/bigfile/depend.mk
+diff -c src/testbin/bigfile/depend.mk:1.1.1.1 src/testbin/bigfile/depend.mk:1.2
+*** src/testbin/bigfile/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/bigfile/depend.mk	Fri Oct  6 16:07:58 2017
+***************
+*** 12,14 ****
+--- 12,15 ----
+   $(OSTREE)/include/kern/unistd.h \
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/testbin/conman/depend.mk
+diff -c src/testbin/conman/depend.mk:1.1.1.1 src/testbin/conman/depend.mk:1.2
+*** src/testbin/conman/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/conman/depend.mk	Fri Oct  6 16:07:59 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/testbin/crash/depend.mk
+diff -c src/testbin/crash/depend.mk:1.1.1.1 src/testbin/crash/depend.mk:1.2
+*** src/testbin/crash/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/crash/depend.mk	Fri Oct  6 16:08:01 2017
+***************
+*** 10,12 ****
+--- 10,13 ----
+   $(OSTREE)/include/kern/unistd.h \
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/testbin/ctest/depend.mk
+diff -c src/testbin/ctest/depend.mk:1.1.1.1 src/testbin/ctest/depend.mk:1.2
+*** src/testbin/ctest/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/ctest/depend.mk	Fri Oct  6 16:08:02 2017
+***************
+*** 7,9 ****
+--- 7,10 ----
+   $(OSTREE)/include/kern/types.h \
+   $(OSTREE)/include/stdarg.h \
+   $(OSTREE)/include/stdlib.h
++ 
+Index: src/testbin/dirconc/depend.mk
+diff -c src/testbin/dirconc/depend.mk:1.1.1.1 src/testbin/dirconc/depend.mk:1.2
+*** src/testbin/dirconc/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/dirconc/depend.mk	Fri Oct  6 16:08:03 2017
+***************
+*** 16,18 ****
+--- 16,19 ----
+   $(OSTREE)/include/stdarg.h \
+   $(OSTREE)/include/stdlib.h \
+   $(OSTREE)/include/string.h
++ 
+Index: src/testbin/dirseek/depend.mk
+diff -c src/testbin/dirseek/depend.mk:1.1.1.1 src/testbin/dirseek/depend.mk:1.2
+*** src/testbin/dirseek/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/dirseek/depend.mk	Fri Oct  6 16:08:05 2017
+***************
+*** 14,16 ****
+--- 14,17 ----
+   $(OSTREE)/include/stdarg.h \
+   $(OSTREE)/include/stdlib.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/testbin/dirtest/depend.mk
+diff -c src/testbin/dirtest/depend.mk:1.1.1.1 src/testbin/dirtest/depend.mk:1.2
+*** src/testbin/dirtest/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/dirtest/depend.mk	Fri Oct  6 16:08:06 2017
+***************
+*** 13,15 ****
+--- 13,16 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/string.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/testbin/f_test/depend.mk
+diff -c src/testbin/f_test/depend.mk:1.1.1.1 src/testbin/f_test/depend.mk:1.2
+*** src/testbin/f_test/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/f_test/depend.mk	Fri Oct  6 16:08:08 2017
+***************
+*** 38,40 ****
+--- 38,41 ----
+   $(OSTREE)/include/stdarg.h \
+   $(OSTREE)/include/err.h \
+   f_hdr.h
++ 
+Index: src/testbin/farm/depend.mk
+diff -c src/testbin/farm/depend.mk:1.1.1.1 src/testbin/farm/depend.mk:1.2
+*** src/testbin/farm/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/farm/depend.mk	Fri Oct  6 16:08:09 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/testbin/faulter/depend.mk
+diff -c src/testbin/faulter/depend.mk:1.1.1.1 src/testbin/faulter/depend.mk:1.2
+*** src/testbin/faulter/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/faulter/depend.mk	Fri Oct  6 16:08:10 2017
+***************
+*** 6,8 ****
+--- 6,9 ----
+   $(OSTREE)/include/machine/types.h \
+   $(OSTREE)/include/kern/types.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/testbin/filetest/depend.mk
+diff -c src/testbin/filetest/depend.mk:1.1.1.1 src/testbin/filetest/depend.mk:1.2
+*** src/testbin/filetest/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/filetest/depend.mk	Fri Oct  6 16:10:39 2017
+***************
+*** 11,13 ****
+--- 11,14 ----
+   $(OSTREE)/include/kern/unistd.h \
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/testbin/forkbomb/depend.mk
+diff -c src/testbin/forkbomb/depend.mk:1.1.1.1 src/testbin/forkbomb/depend.mk:1.2
+*** src/testbin/forkbomb/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/forkbomb/depend.mk	Fri Oct  6 16:11:15 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/testbin/forktest/depend.mk
+diff -c src/testbin/forktest/depend.mk:1.1.1.1 src/testbin/forktest/depend.mk:1.2
+*** src/testbin/forktest/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/forktest/depend.mk	Fri Oct  6 16:11:19 2017
+***************
+*** 12,14 ****
+--- 12,15 ----
+   $(OSTREE)/include/stdio.h \
+   $(OSTREE)/include/stdarg.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/testbin/guzzle/depend.mk
+diff -c src/testbin/guzzle/depend.mk:1.1.1.1 src/testbin/guzzle/depend.mk:1.2
+*** src/testbin/guzzle/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/guzzle/depend.mk	Fri Oct  6 16:11:22 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/unistd.h \
+   $(OSTREE)/include/kern/unistd.h \
+   $(OSTREE)/include/kern/ioctl.h
++ 
+Index: src/testbin/hash/depend.mk
+diff -c src/testbin/hash/depend.mk:1.1.1.1 src/testbin/hash/depend.mk:1.2
+*** src/testbin/hash/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/hash/depend.mk	Fri Oct  6 16:11:24 2017
+***************
+*** 11,13 ****
+--- 11,14 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/fcntl.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/testbin/hash/dependh.mk
+diff -c src/testbin/hash/dependh.mk:1.1.1.1 src/testbin/hash/dependh.mk:1.2
+*** src/testbin/hash/dependh.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/hash/dependh.mk	Fri Oct  6 16:11:24 2017
+***************
+*** 2,4 ****
+--- 2,5 ----
+  hash.ho: \
+   hash.c \
+   $(OSTREE)/hostinclude/hostcompat.h
++ 
+Index: src/testbin/hog/depend.mk
+diff -c src/testbin/hog/depend.mk:1.1.1.1 src/testbin/hog/depend.mk:1.2
+*** src/testbin/hog/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/hog/depend.mk	Fri Oct  6 16:11:25 2017
+***************
+*** 1,3 ****
+--- 1,4 ----
+  
+  hog.o: \
+   hog.c
++ 
+Index: src/testbin/huge/depend.mk
+diff -c src/testbin/huge/depend.mk:1.1.1.1 src/testbin/huge/depend.mk:1.2
+*** src/testbin/huge/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/huge/depend.mk	Fri Oct  6 16:11:26 2017
+***************
+*** 7,9 ****
+--- 7,10 ----
+   $(OSTREE)/include/kern/types.h \
+   $(OSTREE)/include/stdarg.h \
+   $(OSTREE)/include/stdlib.h
++ 
+Index: src/testbin/kitchen/depend.mk
+diff -c src/testbin/kitchen/depend.mk:1.1.1.1 src/testbin/kitchen/depend.mk:1.2
+*** src/testbin/kitchen/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/kitchen/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/testbin/matmult/depend.mk
+diff -c src/testbin/matmult/depend.mk:1.1.1.1 src/testbin/matmult/depend.mk:1.2
+*** src/testbin/matmult/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/matmult/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/stdio.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/testbin/palin/depend.mk
+diff -c src/testbin/palin/depend.mk:1.1.1.1 src/testbin/palin/depend.mk:1.2
+*** src/testbin/palin/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/palin/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 7,9 ****
+--- 7,10 ----
+   $(OSTREE)/include/kern/types.h \
+   $(OSTREE)/include/stdarg.h \
+   $(OSTREE)/include/string.h
++ 
+Index: src/testbin/parallelvm/depend.mk
+diff -c src/testbin/parallelvm/depend.mk:1.1.1.1 src/testbin/parallelvm/depend.mk:1.2
+*** src/testbin/parallelvm/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/parallelvm/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 13,15 ****
+--- 13,16 ----
+   $(OSTREE)/include/string.h \
+   $(OSTREE)/include/stdlib.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/testbin/randcall/depend.mk
+diff -c src/testbin/randcall/depend.mk:1.1.1.1 src/testbin/randcall/depend.mk:1.2
+*** src/testbin/randcall/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/randcall/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 27,29 ****
+--- 27,30 ----
+   $(OSTREE)/include/stdarg.h \
+   $(OSTREE)/include/string.h \
+   extern.h
++ 
+Index: src/testbin/rmdirtest/depend.mk
+diff -c src/testbin/rmdirtest/depend.mk:1.1.1.1 src/testbin/rmdirtest/depend.mk:1.2
+*** src/testbin/rmdirtest/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/rmdirtest/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 18,20 ****
+--- 18,21 ----
+   $(OSTREE)/include/limits.h \
+   $(OSTREE)/include/kern/limits.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/testbin/rmtest/depend.mk
+diff -c src/testbin/rmtest/depend.mk:1.1.1.1 src/testbin/rmtest/depend.mk:1.2
+*** src/testbin/rmtest/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/rmtest/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 14,16 ****
+--- 14,17 ----
+   $(OSTREE)/include/errno.h \
+   $(OSTREE)/include/kern/errno.h \
+   $(OSTREE)/include/err.h
++ 
+Index: src/testbin/sink/depend.mk
+diff -c src/testbin/sink/depend.mk:1.1.1.1 src/testbin/sink/depend.mk:1.2
+*** src/testbin/sink/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/sink/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/testbin/sort/depend.mk
+diff -c src/testbin/sort/depend.mk:1.1.1.1 src/testbin/sort/depend.mk:1.2
+*** src/testbin/sort/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/sort/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 8,10 ****
+--- 8,11 ----
+   $(OSTREE)/include/string.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/testbin/sty/depend.mk
+diff -c src/testbin/sty/depend.mk:1.1.1.1 src/testbin/sty/depend.mk:1.2
+*** src/testbin/sty/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/sty/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/testbin/tail/depend.mk
+diff -c src/testbin/tail/depend.mk:1.1.1.1 src/testbin/tail/depend.mk:1.2
+*** src/testbin/tail/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/tail/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 10,12 ****
+--- 10,13 ----
+   $(OSTREE)/include/stdlib.h \
+   $(OSTREE)/include/err.h \
+   $(OSTREE)/include/stdarg.h
++ 
+Index: src/testbin/tictac/depend.mk
+diff -c src/testbin/tictac/depend.mk:1.1.1.1 src/testbin/tictac/depend.mk:1.2
+*** src/testbin/tictac/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/tictac/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 9,11 ****
+--- 9,12 ----
+   $(OSTREE)/include/unistd.h \
+   $(OSTREE)/include/kern/unistd.h \
+   $(OSTREE)/include/kern/ioctl.h
++ 
+Index: src/testbin/triplehuge/depend.mk
+diff -c src/testbin/triplehuge/depend.mk:1.1.1.1 src/testbin/triplehuge/depend.mk:1.2
+*** src/testbin/triplehuge/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/triplehuge/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 14,16 ****
+--- 14,17 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   triple.h
++ 
+Index: src/testbin/triplemat/depend.mk
+diff -c src/testbin/triplemat/depend.mk:1.1.1.1 src/testbin/triplemat/depend.mk:1.2
+*** src/testbin/triplemat/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/triplemat/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 14,16 ****
+--- 14,17 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   triple.h
++ 
+Index: src/testbin/triplesort/depend.mk
+diff -c src/testbin/triplesort/depend.mk:1.1.1.1 src/testbin/triplesort/depend.mk:1.2
+*** src/testbin/triplesort/depend.mk:1.1.1.1	Wed Sep 27 13:25:13 2017
+--- src/testbin/triplesort/depend.mk	Fri Oct  6 16:11:34 2017
+***************
+*** 14,16 ****
+--- 14,17 ----
+   $(OSTREE)/include/kern/ioctl.h \
+   $(OSTREE)/include/err.h \
+   triple.h
++ 
